@@ -7,6 +7,7 @@ app = 'crop-deases'
 primary_region = 'cdg'
 
 [build]
+command = "python app.py --host=0.0.0.0 --port=8080"
 
 [http_service]
   internal_port = 8080
